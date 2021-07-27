@@ -1,0 +1,23 @@
+# directory to be analyzed.
+directory_name: "to_be_analyzed"
+
+# number of the sample images that to picked.
+num_of_sample_img: 7
+
+# number of the images that has to be same.
+threshold: 80
+
+# Person Re-Identification DB.
+re_id_db: "objects"
+
+# Person Re-Identification DB.
+merged_re_id_db: "final_objects"
+
+# add-ons attributes for "final_objects" collection.
+add_on_attr: {
+  "full_name":null,
+  "phone_number":null,
+  "predicted_type":null,
+  "test_drive":false,
+  "status":false
+}
